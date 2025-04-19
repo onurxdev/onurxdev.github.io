@@ -134,7 +134,7 @@ const handleYesClick = () => {
     const randomIndex = Math.floor(Math.random() * dateIdeas.length);
     const selectedDateIdea = dateIdeas[randomIndex];
 
-    alert(`Rastgele cekilen date fikri: ${selectedDateIdea}`);
+    alert(`Randomly chosen date idea: ${selectedDateIdea}`);
   });
 
   yesBtn.replaceWith(letsGoBtn);
