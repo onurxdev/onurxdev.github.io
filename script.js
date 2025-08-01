@@ -4,7 +4,7 @@ const gif = qs(".gif");
 const [yesBtn, noBtn] = [".yes-btn", ".no-btn"].map(qs);
 
 const handleYesClick = () => {
-  question.innerHTML = "EVEEETTTT! EVET DEDİ!!! Randevumuzda görüşürüz!!";
+  question.innerHTML = "YESSSS! SHE SAID YESSS!!! SEE YOU ON OUR DATE!!";
   gif.src = "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
 
   noBtn.removeEventListener("mouseover", handleNoMouseOver);
